@@ -60,6 +60,9 @@
                 background-color: var(--primary-color);
                 color: white;
             }
+            .text-custom-primary {
+                color: var(--primary-color);
+            }
         </style>
 
         @yield('page_styles')

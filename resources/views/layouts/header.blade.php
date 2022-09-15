@@ -1,4 +1,4 @@
-<header id="header" class="header-transparent header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+<header id="header" class="header-transparents header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
     <div class="header-body border-top-0 box-shadow-none">
         <div class="header-container container">
             <div class="header-row">
@@ -26,14 +26,17 @@
                                         <li>
                                             <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="68" href="#masterclass-section">Masterclass</a>
                                         </li>
-                                        <li>
+                                        <li class="d-none">
                                             <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="68" href="#magazine-section">Magazine</a>
                                         </li>
-                                        <li>
+                                        {{-- <li>
                                             <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="68" href="#books-section">eBooks</a>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="68" href="#courses-section">Free Courses</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="68" href="#merch-section">Store</a>
                                         </li>
                                         <li>
                                             <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="68" href="#">Contact Us</a>
